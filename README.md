@@ -37,14 +37,19 @@ Follow the steps below to set up the `.env` file:
    ```
 
 
-## External packages
+## External installed packages
+
+To get a list of installed packages, including editables, use the command `pip list`.
+
+Packages are listed in a case-insensitive sorted order.
+
+Ensure that you are installing external components through the command line in administrator mode.
 
 | Package  | Version  | How to install               |
 |----------|----------|------------------------------|
 | openai   | 1.2.4    | pip install openai           |
 | dotenv   | 1.0.0    | pip install python-dotenv    |
-
-<!-- | Line 3   | Line 3   | Line 3   | -->
+| tiktoken | 0.5.1    | pip install tiktoken         |
 <!-- | Line 4   | Line 4   | Line 4   | -->
 <!-- | Line 5   | Line 5   | Line 5   | -->
 <!-- | Line 6   | Line 6   | Line 6   | -->
